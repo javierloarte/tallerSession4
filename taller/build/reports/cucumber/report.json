@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 238279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.beforeCucumber()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add new task",
+        "description": "",
+        "id": "tasklist;add-new-task",
+        "after": [
+          {
+            "result": {
+              "duration": 274648560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.afterCucumber(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149582520,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open task list applicaction",
+            "match": {
+              "location": "MyStepdefsClean.openTastLisyApplicaction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23557418709,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "do click on [Add] button",
+            "match": {
+              "location": "MyStepdefsClean.doClickOnAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044523494,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I type \u0027Estudiar\u0027 on [taskName] textbox on WhenDo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Estudiar",
+                  "offset": 8
+                },
+                {
+                  "val": "taskName",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefsClean.iTypeReunionOnTaskNameTextboxOnWhenDo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2027943870,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I type \u0027Examen Parcial\u0027 on [taskNote] textbox on WhenDo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Examen Parcial",
+                  "offset": 8
+                },
+                {
+                  "val": "taskNote",
+                  "offset": 28
+                }
+              ],
+              "location": "MyStepdefsClean.iTypeReunionOnTaskNameTextboxOnWhenDo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666617731,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "do click on [Save] button on WhenDo",
+            "match": {
+              "location": "MyStepdefsClean.doClickOnSaveButtonOnWhenDo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5423585404,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify new task: \u0027Estudiar\u0027 is created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Estudiar",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefsClean.verifyNewTaskNameIsCreated(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TaskList",
+    "description": "",
+    "id": "tasklist",
+    "keyword": "Feature",
+    "uri": "createTarea.feature"
+  }
+]

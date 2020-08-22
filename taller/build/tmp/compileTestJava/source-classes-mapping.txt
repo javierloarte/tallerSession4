@@ -1,0 +1,38 @@
+controlsAppium/TextBox.java
+ controlsAppium.TextBox
+controlsAppium/Control.java
+ controlsAppium.Control
+activities/TaskMain.java
+ activities.TaskMain
+factoryDevices/FactoryDevices.java
+ factoryDevices.FactoryDevices
+runner/MyStepdefsClean.java
+ runner.MyStepdefsClean
+report/GenerarReporteSuite.java
+ report.GenerarReporteSuite
+report/RunnerGradle.java
+ report.RunnerGradle
+report/LocalReport.java
+ report.LocalReport
+controlsAppium/Link.java
+ controlsAppium.Link
+activities/AddTaskScreen.java
+ activities.AddTaskScreen
+controlsAppium/Button.java
+ controlsAppium.Button
+factoryDevices/IOS.java
+ factoryDevices.IOS
+factoryDevices/CloudDevices.java
+ factoryDevices.CloudDevices
+report/GenerarReporte.java
+ report.GenerarReporte
+runner/Runner.java
+ runner.Runner
+sessionManager/Session.java
+ sessionManager.Session
+factoryDevices/Android.java
+ factoryDevices.Android
+factoryDevices/IDevices.java
+ factoryDevices.IDevices
+controlsAppium/Label.java
+ controlsAppium.Label
